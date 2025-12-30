@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "noxium",
+  "version": "1.0.0",
+  "name": "Noxium Client",
+  "description": "Advanced Minecraft Client",
+  "authors": ["Best Minecraft Cheat Plugin!"],
+  "contact": {},
+  "license": "Copyright (c)",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.noxium.client.NoxiumClient"
+    ]
+  },
+  "mixins": [
+    "noxium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

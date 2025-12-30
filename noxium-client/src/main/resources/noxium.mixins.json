@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.noxium.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ScreenRenderingMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
